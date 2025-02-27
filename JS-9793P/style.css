@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.arkaplan {
+    background-image: url('/deniz.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 8px;
+    color: rgb(43, 102, 9);
+    text-align: center;
+    overflow: hidden;
+}
+
+.uyari-yazisi {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.orta {
+    margin: 18px auto;
+    width: 300px;
+    text-align: center;
+    background-color: #8c60df69; 
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.butonlar {
+    margin-top: 8px;
+}
+
+.buton {
+    padding: 8px 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: #edf8ee;
+}
+
+.buton:hover {
+    background-color: #3e8e41;
+}
+
+section {
+    margin: 5px;
+}
+
+iframe {
+    width: 25%;
+    height: 180px;
+    border-radius:20px;
+}
+.liste {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.liste li {
+    margin-bottom: 8px; 
+}
