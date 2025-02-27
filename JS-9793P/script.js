@@ -13,7 +13,7 @@ let uyariYazisiElement = document.getElementById('uyari-yazisi');
 let uyariSayac = 0;
 setInterval(() => {
     uyariYazisiElement.innerText = uyariYazilari[uyariSayac];
-    uyariSayac = (uyariSayac + 1);
+    uyariSayac = (uyariSayac + 1) % uyariYazilari.length; // Dizinin sonuna geldiğinde başa döner
 }, 8000); 
 
 
