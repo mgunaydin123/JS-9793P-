@@ -10,20 +10,20 @@ let uyariYazilari = [
 
 // Uyarı yazılarını değiştirme
 let uyariYazisiElement = document.getElementById('uyari-yazisi');
-let uyariSayaç = 0;
+let uyariSayac = 0;
 setInterval(() => {
-    uyariYazisiElement.innerText = uyariYazilari[uyariSayaç];
-    uyariSayaç = (uyariSayaç + 1) % uyariYazilari.length;
+    uyariYazisiElement.innerText = uyariYazilari[uyariSayac];
+    uyariSayac = (uyariSayac + 1);
 }, 8000); 
 
-// Butona tıklama işlevi
+
 document.getElementById('clickButon').onclick = function() {
     sayac++; 
     document.getElementById('sayac').innerText = sayac; // HTML'deki sayaç değerini güncelleme
 };
 
-// Reset butonu işlevi
+
 document.getElementById('resetButon').onclick = function() {
-    sayac = 0; // Sayaç değişkenini sıfırlama
-    document.getElementById('sayac').innerText = sayac; // HTML'deki sayaç değerini güncelleme
+    sayac = 0;
+    document.getElementById('sayac').innerText = sayac; 
 };
